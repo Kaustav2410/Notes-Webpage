@@ -2,7 +2,20 @@ const addBtn = document.querySelector("#Add");
 const quoteslisten= document.querySelector("#quotes");
 const quotesdisplay= document.querySelector(".display");
 
-const arr=["hello how is it going on are you okay. just focus on today and dont dwell on the past :)","hey there","how is it going?","Keep up the good work","Just do it","I see you started working on yourself Good! Don't fail this time","This year resolution Dont fail this time"];
+const arr=[
+    `"The world isn't perfect. But it's there for us, doing the best it can… that's what makes it so damn beautiful." — Roy Mustang `,
+    `"Those who stand at the top determine what's wrong and what's right! This very place is neutral ground! Justice will prevail, you say? But, of course, it will! Whoever wins this war becomes justice!" — Don Quixote Doflamingo`,
+    `"People, who can't throw something important away, can never hope to change anything." — Armin Arlert `,
+    `"If you don't take risks, you can't create a future!" — Monkey D. Luffy `,
+    `"You will never be able to love anybody else until you love yourself." — Lelouch Lamperouge`,
+    `"The loneliest people are the kindest. The saddest people smile the brightest. The most damaged people are the wisest. All because they don't wish to see anyone else suffer the way they did." — Jellal Fernandes`,
+    `"Humans die. Animals die. Plants die. Even soul reapers die. It's the arch of the universe. Everything that comes to life eventually ceases to exist." — Baraggan Louisenbairn`,
+    `"A dropout will beat a genius through hard work." -  Rock Lee`,
+    `"Forgetting is like a wound. The wound may heal, but it has already left a scar." - Monkey D. Luffy`,
+    `"How can you keep moving forward if you keep regretting the past?" - Edward Elric`,
+    `" Revenge is just the path you take to escape your suffering" - Ichigo Kurosaki`,
+    `"You can die anytime, but living takes true courage" - Kenshin Himura`
+    ];
 const searchtext=document.querySelector("#searchbox");
 
 (
@@ -74,12 +87,6 @@ function showNotes(){
         }
 
 }
-// function deleteNote (note){
-//     console.log("Deleted");
-//     note.remove();
-//     showNotes();
-// }
-
 
 function deleteNote(index){
       console.log("I am deleting", index);

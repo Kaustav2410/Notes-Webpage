@@ -17,7 +17,11 @@ body{
     top: 0;
     flex-wrap: wrap;
 }
-
+#header a{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
 #header img{
     width: 150px;
     height: 150px;
@@ -141,6 +145,8 @@ body{
 
 #note-contain{
     background-color: #374141;
+    color: rgb(253, 122, 0);
+    font-size: 2rem;
 }
 
 .note{
